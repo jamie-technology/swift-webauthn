@@ -42,7 +42,7 @@ let package = Package(
     ],
     dependencies: [
         .package(url: "https://github.com/brokenhandsio/swift-cbor.git", from: "0.0.1"),
-        .package(url: "https://github.com/apple/swift-crypto.git", "3.8.1" ..< "5.0.0"),
+        .package(url: "git@github.com:jamie-technology/swift-crypto.git", branch: "wasi-support"),
         .package(url: "https://github.com/apple/swift-log.git", from: "1.0.0"),
         .package(url: "https://github.com/swiftlang/swift-docc-plugin.git", from: "1.1.0")
     ],
